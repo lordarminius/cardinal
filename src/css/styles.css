@@ -1,0 +1,185 @@
+.login {
+  border: thin solid #f58024; }
+
+#showcase {
+  margin-top: 7em !important; }
+
+#short-description {
+  margin-top: 3em !important; }
+
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-attachment: fixed;
+  color: #478f99; }
+
+.carousel-item {
+  min-height: 60vh; }
+
+.carousel-image-1 {
+  background: url("../assets/images/piron-guillaume-492636-unsplash.jpg");
+  background-size: cover; }
+  .carousel-image-1 a {
+    color: white; }
+
+.carousel-image-1.btn {
+  border: solid thin #f58024 !important; }
+
+.carousel-image-2 {
+  background: url("../assets/images/piron-guillaume-492636-unsplash.jpg");
+  background-size: cover; }
+
+#opening-section {
+  min-height: 50vh;
+  font-family: 'Times New Roman', Times, serif; }
+  #opening-section .important-numbers {
+    line-height: 0.9;
+    font-size: 110%;
+    padding-left: 5em !important;
+    font-family: Arial, Helvetica, sans-serif; }
+
+html {
+  min-height: 100%; }
+
+.navbar {
+  background-color: #478f99; }
+  .navbar .navbar-brand {
+    color: #ffffff; }
+    .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+      color: #f58024; }
+  .navbar .navbar-text {
+    color: #ffffff; }
+    .navbar .navbar-text a {
+      color: #f58024; }
+      .navbar .navbar-text a:hover, .navbar .navbar-text a:focus {
+        color: #f58024; }
+  .navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    border-radius: .25rem;
+    margin: 0 0.25em; }
+    .navbar .navbar-nav .nav-link:not(.disabled):hover, .navbar .navbar-nav .nav-link:not(.disabled):focus {
+      color: #f58024; }
+  .navbar .navbar-nav .dropdown-menu {
+    background-color: #478f99;
+    border-color: #aff0f8; }
+    .navbar .navbar-nav .dropdown-menu .dropdown-item {
+      color: #ffffff; }
+      .navbar .navbar-nav .dropdown-menu .dropdown-item:hover, .navbar .navbar-nav .dropdown-menu .dropdown-item:focus, .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+        color: #f58024;
+        background-color: #aff0f8; }
+    .navbar .navbar-nav .dropdown-menu .dropdown-divider {
+      border-top-color: #aff0f8; }
+  .navbar .navbar-nav .nav-item.active .nav-link, .navbar .navbar-nav .nav-item.active .nav-link:hover, .navbar .navbar-nav .nav-item.active .nav-link:focus, .navbar .navbar-nav .nav-item.show .nav-link, .navbar .navbar-nav .nav-item.show .nav-link:hover, .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #f58024;
+    background-color: #aff0f8; }
+  .navbar .navbar-toggle {
+    border-color: #aff0f8; }
+    .navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+      background-color: #aff0f8; }
+    .navbar .navbar-toggle .navbar-toggler-icon {
+      color: #ffffff; }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #ffffff; }
+  .navbar .navbar-link {
+    color: #ffffff; }
+    .navbar .navbar-link:hover {
+      color: #f58024; }
+
+@media (max-width: 575px) {
+  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ffffff; }
+    .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #f58024; }
+  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f58024;
+    background-color: #aff0f8; } }
+
+@media (max-width: 767px) {
+  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ffffff; }
+    .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #f58024; }
+  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f58024;
+    background-color: #aff0f8; } }
+
+@media (max-width: 991px) {
+  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ffffff; }
+    .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #f58024; }
+  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f58024;
+    background-color: #aff0f8; } }
+
+@media (max-width: 1199px) {
+  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ffffff; }
+    .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #f58024; }
+  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f58024;
+    background-color: #aff0f8; } }
+
+.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #ffffff; }
+  .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f58024; }
+
+.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #f58024;
+  background-color: #aff0f8; }
+
+.navbar-custom {
+  min-height: 18vh; }
+
+.navbar-text {
+  font-size: 90%; }
+
+.byeline {
+  margin-left: 15em; }
+
+.archway {
+  text-indent: 1em;
+  text-transform: uppercase; }
+
+#home-section {
+  min-height: 45vh;
+  background-attachment: fixed;
+  background: url(/../assets/emergency-responders.jpg);
+  background-repeat: no-repeat;
+  border-bottom: 2px solid red; }
+
+.home-inner {
+  padding-top: 150px; }
+
+.form-group textarea {
+  min-height: 7rem; }
+
+h4 {
+  padding-left: 0; }
+
+ul {
+  padding-left: 1em; }
+
+.reach-us {
+  background-color: #ecf9fa;
+  font-size: 90%; }
+
+.overview h4, .archway {
+  color: red; }
+
+#video-play {
+  position: relative;
+  top: 5vh;
+  min-height: 200px;
+  text-align: center;
+  color: black;
+  padding-top: 100px !important; }
+
+#faq {
+  margin-top: 10em !important; }
+  #faq a {
+    color: darkgray; }

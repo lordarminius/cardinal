@@ -1,0 +1,113 @@
+
+// .header-image1 {
+//   display: flex;
+//   min-height: 25vh;
+//   flex: 33.3%;
+//   padding: 5px;
+//   width: 100%;
+// }
+
+// img {
+//   display: block;
+//   width: 100%;
+//   height: auto;
+// }
+
+
+// .overlay {
+// position: relative;
+// width: 100%;
+// height: 100%;
+// top: 0;
+// left: 0;
+// right: 0;
+// bottom: 0;
+// background-color: rgba(24, 23, 23, 0.7);
+// z-index: 2;
+// }
+
+// .card-group {
+//   margin-top: 200px;
+// }
+
+$dark-overlay: rgb(28%, 56%, 60%);
+$colHighlight   : #f58024;
+
+.login {
+  border: thin solid rgb(96%, 50%, 14%)
+}
+
+#showcase {
+  margin-top: 7em !important;
+ 
+}
+
+
+#short-description {
+  margin-top: 3em !important;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-attachment: fixed;
+  color: $dark-overlay;
+}
+
+.carousel-item {
+  // height: 350px;
+  min-height: 60vh;
+}
+
+
+
+
+
+.carousel-image-1 {
+  background: url('../assets/images/piron-guillaume-492636-unsplash.jpg');
+  background-size: cover;
+  a {
+    color : white;
+   
+  }
+
+}
+
+.carousel-image-1.btn {
+
+    border: solid thin $colHighlight !important;
+  
+}
+
+.carousel-image-2 {
+  background: url('../assets/images/piron-guillaume-492636-unsplash.jpg');
+  background-size: cover;
+
+}
+
+
+// .carousel-image-3 {
+// background: url('../assets/images/2-person-intubation.jpg');
+// background-size: cover;
+// }
+
+
+#opening-section {
+  min-height: 50vh;
+  font-family: 'Times New Roman', Times, serif;
+   .important-numbers {
+     line-height: 0.9;
+     font-size: 110%;
+     padding-left: 5em !important;
+     font-family: Arial, Helvetica, sans-serif;
+    //  background-color: azure;
+    // background-color: rgb(121, 105, 105);
+   }
+}
+
+// .cardinal-outline {
+//   background-image: url(/../assets/images/guy-demonstrating-intubation.jpg);
+//   background-repeat: no-repeat;
+//   background-size: 400px 400px;
+// }

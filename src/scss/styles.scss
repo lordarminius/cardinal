@@ -1,0 +1,243 @@
+@import 'header';
+
+
+html {
+  min-height: 100%;
+}
+
+// $bg-color: #fff;
+// $font-color: black;
+// $primary-color: rgb(76%, 15%, 18%);
+// $info-background1: rgb(97%, 80%, 12%);
+// $info-background2: rgb(26%, 26%, 26%); 
+
+
+
+// Generate Navbar
+$bgDefault      : #478f99;
+$bgHighlight    : #aff0f8;
+$colDefault     : #ffffff;
+$colHighlight   : #f58024;
+$colfallback    : #000;
+$dropDown       : true;
+.navbar {
+  background-color: $bgDefault;
+  .navbar-brand {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: $colHighlight; }}
+  .navbar-text {
+    color: $colDefault; 
+    a {
+      color: $colHighlight;
+      &:hover, &:focus {
+        color: $colHighlight; }}}
+  .navbar-nav {
+    .nav-link {
+      color: $colDefault;
+      border-radius: .25rem;
+      margin: 0 0.25em;
+      &:not(.disabled) {
+        &:hover, &:focus {
+          color: $colHighlight; }}}
+    @if ($dropDown) {
+      .dropdown-menu {
+        background-color: $bgDefault;
+        border-color: $bgHighlight;
+        .dropdown-item {
+          color: $colDefault;
+          &:hover, &:focus, &.active {
+            color: $colHighlight;
+            background-color: $bgHighlight; }}
+        .dropdown-divider {
+          border-top-color: $bgHighlight; }}}
+    .nav-item.active, .nav-item.show {
+      .nav-link, .nav-link:hover, .nav-link:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+  .navbar-toggle {
+    border-color: $bgHighlight;
+    &:hover, &:focus {
+      background-color: $bgHighlight; }
+    .navbar-toggler-icon {
+      color: $colDefault; }}
+  .navbar-collapse,
+  .navbar-form {
+    border-color: $colDefault; }
+  .navbar-link {
+    color: $colDefault;
+    &:hover {
+      color: $colHighlight; }}}
+@media (max-width: 575px) {
+  .navbar-expend-sm .navbar-nav .show .dropdown-menu {
+    .dropdown-item {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    .dropdown-item.active {
+      color: $colHighlight;
+      background-color: $bgHighlight; }}}
+@media (max-width: 767px) {
+  .navbar-expend-md .navbar-nav .show .dropdown-menu {
+    .dropdown-item {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    .dropdown-item.active {
+      color: $colHighlight;
+      background-color: $bgHighlight; }}}
+@media (max-width: 991px) {
+  .navbar-expend-lg .navbar-nav .show .dropdown-menu {
+    .dropdown-item {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    .dropdown-item.active {
+      color: $colHighlight;
+      background-color: $bgHighlight; }}}
+@media (max-width: 1199px) {
+  .navbar-expend-xl .navbar-nav .show .dropdown-menu {
+    .dropdown-item {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    .dropdown-item.active {
+      color: $colHighlight;
+      background-color: $bgHighlight; }}}
+.navbar-expend .navbar-nav .show .dropdown-menu {
+  .dropdown-item {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: $colHighlight; }}
+  .dropdown-item.active {
+    color: $colHighlight;
+    background-color: $bgHighlight; }}
+
+    // End of generated Navbar
+
+
+
+    // Scroll css. navbrand not working
+    // .navbar.scrolled {
+    //    background-color: $colDefault; 
+    //      .navbar-brand {
+    //        color: $colfallback ;
+    //       }
+        
+    
+  
+
+.navbar-custom {
+  min-height: 18vh;
+ 
+}
+
+
+
+
+
+.navbar-text {
+  font-size: 90%;
+}
+
+.byeline {
+  margin-left: 15em;
+}
+
+
+
+
+
+
+.archway {
+  text-indent: 1em;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#home-section {
+
+  // margin-top: 50px; //debugging
+  // padding: 100px; //debugging
+  min-height: 45vh;
+  background-attachment: fixed; 
+  background: url(/../assets/emergency-responders.jpg);
+  // object-fit: scale-down;
+  // background-position: right 55% top 25%;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid red; //for debugging
+  // min-height: 100%;
+}
+
+
+
+.home-inner {
+  padding-top: 150px;
+}
+
+
+
+
+.form-group textarea {
+  min-height: 7rem;
+}
+
+
+h4 {
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+.reach-us {
+  background-color: rgb(236, 249, 250);
+  font-size: 90%;
+}
+
+
+.overview h4 , .archway {
+  color: red;
+}
+
+// videoplay
+#video-play {
+  position: relative;
+  top: 5vh;
+  min-height: 200px;
+  text-align: center;
+  color: black;
+  padding-top: 100px !important;
+}
+
+
+// FAQ
+
+#faq {
+  margin-top: 10em !important;
+
+  a {
+    color: darkgray;
+  }
+}
+
+ 
+  
