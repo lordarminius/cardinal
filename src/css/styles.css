@@ -1,5 +1,8 @@
+nav {
+  border-bottom: 3px solid white; }
+
 .login {
-  border: thin solid #f58024; }
+  border: thin solid #f50303; }
 
 #showcase {
   margin-top: 7em !important; }
@@ -14,22 +17,6 @@
   background-attachment: fixed;
   color: #478f99; }
 
-.carousel-item {
-  min-height: 60vh; }
-
-.carousel-image-1 {
-  background: url("../assets/images/piron-guillaume-492636-unsplash.jpg");
-  background-size: cover; }
-  .carousel-image-1 a {
-    color: white; }
-
-.carousel-image-1.btn {
-  border: solid thin #f58024 !important; }
-
-.carousel-image-2 {
-  background: url("../assets/images/piron-guillaume-492636-unsplash.jpg");
-  background-size: cover; }
-
 #opening-section {
   min-height: 50vh;
   font-family: 'Times New Roman', Times, serif; }
@@ -37,113 +24,194 @@
     line-height: 0.9;
     font-size: 110%;
     padding-left: 5em !important;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet; }
 
 html {
   min-height: 100%; }
 
 .navbar {
-  background-color: #478f99; }
+  background-color: #f8f8f8; }
   .navbar .navbar-brand {
-    color: #ffffff; }
+    color: #f30e0e; }
     .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
       color: #f58024; }
   .navbar .navbar-text {
-    color: #ffffff; }
+    color: #f30e0e; }
     .navbar .navbar-text a {
       color: #f58024; }
       .navbar .navbar-text a:hover, .navbar .navbar-text a:focus {
         color: #f58024; }
   .navbar .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #f30e0e;
     border-radius: .25rem;
     margin: 0 0.25em; }
     .navbar .navbar-nav .nav-link:not(.disabled):hover, .navbar .navbar-nav .nav-link:not(.disabled):focus {
       color: #f58024; }
   .navbar .navbar-nav .dropdown-menu {
-    background-color: #478f99;
-    border-color: #aff0f8; }
+    background-color: #f8f8f8;
+    border-color: #01090a; }
     .navbar .navbar-nav .dropdown-menu .dropdown-item {
-      color: #ffffff; }
+      color: #f30e0e; }
       .navbar .navbar-nav .dropdown-menu .dropdown-item:hover, .navbar .navbar-nav .dropdown-menu .dropdown-item:focus, .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
         color: #f58024;
-        background-color: #aff0f8; }
+        background-color: #01090a; }
     .navbar .navbar-nav .dropdown-menu .dropdown-divider {
-      border-top-color: #aff0f8; }
+      border-top-color: #01090a; }
   .navbar .navbar-nav .nav-item.active .nav-link, .navbar .navbar-nav .nav-item.active .nav-link:hover, .navbar .navbar-nav .nav-item.active .nav-link:focus, .navbar .navbar-nav .nav-item.show .nav-link, .navbar .navbar-nav .nav-item.show .nav-link:hover, .navbar .navbar-nav .nav-item.show .nav-link:focus {
     color: #f58024;
-    background-color: #aff0f8; }
+    background-color: #01090a; }
   .navbar .navbar-toggle {
-    border-color: #aff0f8; }
+    border-color: #01090a; }
     .navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
-      background-color: #aff0f8; }
+      background-color: #01090a; }
     .navbar .navbar-toggle .navbar-toggler-icon {
-      color: #ffffff; }
+      color: #f30e0e; }
   .navbar .navbar-collapse,
   .navbar .navbar-form {
-    border-color: #ffffff; }
+    border-color: #f30e0e; }
   .navbar .navbar-link {
-    color: #ffffff; }
+    color: #f30e0e; }
     .navbar .navbar-link:hover {
       color: #f58024; }
 
 @media (max-width: 575px) {
   .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ffffff; }
+    color: #f30e0e; }
     .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
       color: #f58024; }
   .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #f58024;
-    background-color: #aff0f8; } }
+    background-color: #01090a; } }
 
 @media (max-width: 767px) {
   .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ffffff; }
+    color: #f30e0e; }
     .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
       color: #f58024; }
   .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #f58024;
-    background-color: #aff0f8; } }
+    background-color: #01090a; } }
 
 @media (max-width: 991px) {
   .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ffffff; }
+    color: #f30e0e; }
     .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
       color: #f58024; }
   .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #f58024;
-    background-color: #aff0f8; } }
+    background-color: #01090a; } }
 
 @media (max-width: 1199px) {
   .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #ffffff; }
+    color: #f30e0e; }
     .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
       color: #f58024; }
   .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #f58024;
-    background-color: #aff0f8; } }
+    background-color: #01090a; } }
 
 .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item {
-  color: #ffffff; }
+  color: #f30e0e; }
   .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:focus {
     color: #f58024; }
 
 .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item.active {
   color: #f58024;
-  background-color: #aff0f8; }
+  background-color: #01090a; }
 
 .navbar-custom {
-  min-height: 18vh; }
+  min-height: 15vh;
+  background-color: #001935; }
 
 .navbar-text {
-  font-size: 90%; }
+  font-size: 110%; }
 
 .byeline {
-  margin-left: 15em; }
+  margin-left: 15em;
+  color: #ed0303; }
 
-.archway {
-  text-indent: 1em;
-  text-transform: uppercase; }
+.overlay {
+  background-color: rgba(43, 42, 42, 0.9); }
+
+#main {
+  min-height: 100vh; }
+
+.hero-image {
+  background-image: linear-gradient(rgba(54, 51, 51, 0.4), rgba(54, 51, 51, 0.4)), url(../assets/images/cpr-class.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  margin-top: 10vh; }
+
+.landing-page-content {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em; }
+  .landing-page-content h3 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 42px; }
+  .landing-page-content p {
+    color: white;
+    font-size: 1.25rem;
+    width: 45%;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif; }
+  .landing-page-content .button {
+    border: 1px solid #d3cdcd;
+    background: white; }
+
+.card-img-top {
+  width: 100%;
+  height: 18vw;
+  object-fit: cover; }
+
+.cardinal-outline h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 200%; }
+
+.cardinal-outline p {
+  font-family: 'Lato', sans-serif;
+  font-size: 110%;
+  font-weight: 400;
+  line-height: 130%; }
+
+.blurb {
+  min-height: 45vh; }
+  .blurb h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; }
+  .blurb p {
+    font-size: 100.5%;
+    font-weight: 400;
+    line-height: 130%;
+    font-family: 'Lato', sans-serif; }
+
+.descriptive-cards {
+  background-color: #001935; }
+
+.course-list {
+  font-family: 'Lato', sans-serif; }
+
+.customer-support {
+  font-size: 112.5%;
+  font-weight: 400;
+  line-height: 130%;
+  font-family: 'Lato', sans-serif; }
+
+.testimonial-text h2, .testimonial-text p {
+  font-family: 'Lato', sans-serif; }
+
+.testimonial-text h2 {
+  font-size: 112.5%;
+  font-weight: 400;
+  line-height: 130%; }
+
+.contact-section, .staff-section {
+  font-family: 'Lato', sans-serif; }
 
 #home-section {
   min-height: 45vh;
@@ -164,8 +232,10 @@ h4 {
 ul {
   padding-left: 1em; }
 
+.list-section, .logo-section {
+  background-color: #0d3461; }
+
 .reach-us {
-  background-color: #ecf9fa;
   font-size: 90%; }
 
 .overview h4, .archway {

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
     crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
@@ -21,9 +22,9 @@
     <div class="container">
       <a href="index.html" class="navbar-brand">
         <span>
-          <i class="fas fa-archway fa-2x text-white"></i>
+          <!-- <i class="fas fa-archway fa-2x text-white   "></i> -->
         </span>
-        <p class="navbar-text text-white display-1">CARDINAL ACADEMY OF EMERGENCY CARE
+        <p class="navbar-text text-white    display-1 cardinal">CARDINAL ACADEMY OF EMERGENCY CARE
           <br>
           <span class="byeline small">...act on your passion for life.</span>
         </p>
@@ -51,10 +52,10 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="#" id="dropdown01" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle text-white " href="#" id="dropdown01" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">Courses</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Advanced Cardiovascular Life Support (ACLS)</a>
+              <a class="dropdown-item text-wording" href="#">Advanced Cardiovascular Life Support (ACLS)</a>
               <a class="dropdown-item" href="#">Basic Life Support (BLS)</a>
               <a class="dropdown-item" href="#">Paediatric Advanced Life Support (PALS)</a>
               <a class="dropdown-item" href="#">Acute Medical Emergencies (AME)</a>
@@ -72,12 +73,13 @@
           </li>
 
           <li class="nav-item login">
-            <a class="nav-link text-white" href="#">Login & Register</a>
+            <a class="nav-link text-white " href="#">Login & Register</a>
           </li>
 
-          <!-- <li class="nav-item">
-                <a class="nav-link text-white" href="#">Register</a>
-              </li> -->
+          <li class="nav-item">
+            <a class="nav-link text-white   " href="faq.html">FAQs</a>
+          </li>
+
 
 
 
@@ -85,21 +87,17 @@
         </ul>
 
         <div class="navbar-nav mb-lg-0">
-          <!-- navbar2 -->
 
           <ul class="navbar-nav">
             <!-- <li class="nav-item">
-              <a class="nav-link text-white" href="#">
-                <i class="fas fa-shopping-cart fa-x"></i>
-              </a>
-            </li> -->
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="contact.html">Contact Us</a>
+                <a class="nav-link text-white   " href="#">
+                  <i class="fas fa-shopping-cart fa-x"></i>
+                </a>
+              </li> -->
+            <a class="nav-link text-white   " href="contact.html">Contact Us</a>
             </li>
-            <a class="nav-item nav-link text-white" href="#">(+234) 80-881-33220</a>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="faq.html">FAQs</a>
-            </li>
+            <a class="nav-item nav-link text-white  " href="#">(+234) 80-881-33220</a>
+
           </ul>
         </div>
       </div>
@@ -110,68 +108,29 @@
   </nav>
 
 
-  <!-- Carousel -->
 
-  <section id="showcase" class="overlay">
 
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
+  <section id="main">
+    <div class="container-fluid hero-image">
 
-      <div class="carousel-inner">
+        <div class="landing-page-content d-flex flex-column align-items-end ">
 
-        <div class="carousel-item carousel-image-1 active">
-
-          <div class="d-none d-sm-block text-right">
-            <div class="text-white">
-              <p class="lead pt-4">Upgrade your knowledge of modern emergency medicine</p>
-              <!-- <p class="lead">Practice medicine with confidence. Globally.</p> -->
-              <a href="#" class="btn btn-lg btn-info">Explore Our Courses</a>
+            <h3>
+            Welcome To Cardinal Academy
+            </h3>
+            <p> Take your career to new heights. Rediscover the joy and power of learning. Be confident and prepared.</p>
+            <!-- <button class="btn btn-outline-secondary">Discover more</button> -->
+            <a href="about.html" class="button btn btn-outline-secondary">Discover More</a>
+            
             </div>
-          </div>
-
-        </div>
-
-
-
-
-
-        <div class="carousel-item carousel-image-2">
-          <div class="container-fluid">
-            <div class="carousel-caption d-none d-sm-block text-right">
-              <p class="lead pt-4">Be prepared when disaster strikes</p>
-
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="carousel-item carousel-image-3">
-          <div class="container">
-            <div class="carousel-caption d-none d-sm-block text-right mb-5">
-              <!-- <h1 class="display-3">Heading Three</h1>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                  quod aliquid inventore vero perspiciatis.</p>
-                <a href="#" class="btn btn-success btn-lg">Learn More</a> -->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-
-      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
     </div>
   </section>
-  <!-- End carousel -->
+
+
+
+
+
+
 
   <!-- END OF HEADER -->
 
@@ -179,159 +138,299 @@
 
 
   <section id="opening-section" class="border">
-    <div class="container-fluid dark-overlay">
+     
+    <div class="container dark-overlay">
       <div class="row">
-        <!-- <div class="col-md-4 p-5 important-numbers">
-          <div class="deco">
-            <h4>357</h4>
-            <p>students enrolled</p>
-          </div>
-          <div>
-            <h4>15</h4>
-            <p>distinct course sets</p>
-          </div>
-          <div>
-            <h4>30</h4>
-            <p>strategic partners</p>
-          </div>
-          <div>
-            <h4>10</h4>
-            <p>years of service</p>
-          </div>
-
-        </div> -->
 
 
-        <div class="col py-5 px-5 cardinal-outline">
-          <h3 class="pb-3 text-center">Take charge of your professional development. <br>
-            Enroll in one of Cardinal Academy's elite courses in medical emergency management</h3>
-          <p>Cardinal Academy is the foremost institution for emergency medicine education in Nigeria. <br>
-            Since 2010 we have worked with over 1500 students and trained them in the practice of modern, efficient,
-            and rigorous
-            emergency responsiveness. <br>
-            We offer 15 different courses including basic life support (BLS), acute cardiovascular life support (ACLS),
-            trauma management (ATLS), pediatric life support (PALS)
-            first aid, and many others. <br>
-            Our tutors are internationally certified professionals and
-            all our courses are accredited by the American Heart Association and the Resuscitation Council of South
-            Africa </p>
+
+        <div class="col p-5 mb-3 cardinal-outline">
+          <h3 class="pb-3 mt-3 mb-5 mx-5 text-center take-charge border-bottom">Take charge of your professional development.</h3>
+          <p class="pb-5 border-bottom">Cardinal Academy is a leading center for emergency medicine education in Nigeria.
+            Since 2010 we have worked with over 1500 students and trained them in the practice of modern, efficient 
+            emergency responsiveness. 
+            We offer 15 different courses including basic life support (BLS), acute cardiovascular life support (ACLS), <br>
+            trauma management (ATLS), pediatric life support (PALS) and
+            first aid. Our instructors are certified professionals and
+            all our courses are internationally accredited by organizations like the American Heart Association and the Resuscitation Council of South
+            Africa. Join our growing network of alumni utilizing their life saving skills around the world and discover what 
+            it means to have the cardinal advantage ! </p> 
         </div>
       </div>
+
+      <div class="row blurb">
+        <div class="col px-5">
+            <i class="fas fa-globe-africa fa-5x"></i>
+          <h2>Globally Recognized</h2>
+          <p>Cardinal academy issues certificates on behalf of globally recognized institutions like the 
+            American Heart Association (AHA) and the Resuscitation Council of South Africa (RCSA). Our alumni
+            are thus able to work all over the world and in every industry imaginable including hospitals, industrial clinics,
+            offshore locations, military formations, disaster relief zones, schools and universities and many others
+          </p>
+        </div>
+        <div class="col px-3">
+            <i class="fas fa-book-open fa-5x"></i>
+          <h2>Intensive</h2>
+          <p>Our sessions are characterized by small class size. We combine theoretical and practical sessions
+            in typically 4 day events lasting from 8am to 5pm with short relief breaks and lunch. There is much to learn and master 
+            and students usally come away from this experience exhausted but much more knowledgeable! 
+          </p>
+        </div>
+        <div class="col px-3">
+            <i class="fab fa-hubspot fa-5x"></i>
+          <h2>Flexible</h2>
+          <p>Whether you are a doctor, nurse,paramedic or first-aider in need of certification or a large organization
+            that needs to get its employees up to speed we have a course for you. For large groups, we conduct training
+            for large candidate pools from teaching hospitals, oil and gas companies, universities, disaster relief agencies and other
+          private organizations. Whatever your needs, we have you covered. Give us a call</p>
+        </div>
+      </div>
+
     </div>
   </section>
 
 
+  <!--===================Card-Overview section====================  -->
+
+  <section id="card-overview" class="p-5 descriptive-cards">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- CArdinal Academy Description -->
-
-  <!-- <div class="container overview">
     <div class="row">
-      <div class="col-md-4">
-        <h4>High-Quality</h4>
-        <ul>
-          <li>All courses are developed using the most current emergency cardiovascular care science from the American Heart
-            Association.
-          </li>
-          <li>The same content is delivered to all learners.</li>
-          <li>Students still complete in-person hands-on skills sessions and testing for courses requiring CPR and other psychomotor
-            skills.
-          </li>
-        </ul>
-      </div>
 
-      <div class="col-md-4">
-        <h4>Convenient</h4>
-        <ul>
-          <li>Students can complete online courses anytime and anywhere with internet access.</li>
-          <li>A cost-efficient and time-saving alternative to 100% classroom training. </li>
-          <li>Instructors and Training Centers are able to focus on quality hands-on time for teaching critical psychomotor skills.
-          </li>
-          <li>Caregivers spend less time away from patients, while employers and staff maintain on-the-job productivity.</li>
-        </ul>
-      </div>
+      <h5 class="col pt-2 pb-3 title-text text-white">FOR HEALTHCARE PROVIDERS</h5>
 
-      <div class="col-md-4">
-        <h4>Effective</h4>
-        <p>"eLearning can be as effective as classroom-based training. Often measured by students’ retention of course content,
-          the average retention rate for an instructor-led class is 58%, and the eLearning experience enhances the retention
-          rate by 25%."</p>
-
-        <p>
-          <em>WR Hambrecht & Co., Corporate eLearning: Exploring a New Frontier; 2000; p 9</em>
-        </p>
-      </div>
     </div>
-  </div>
-  </section> -->
+
+    <div class="row">
+
+
+
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="/../assets/images/2-person-intubation.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"> ACLS</h5>
+            <p class="card-text">This American Heart Association ACLS renewal course will teach you clinical
+              interventions for the urgent treatment of cardiac arrest, stroke, cardiac emergencies and other life
+              threatening medical emergencies..</p>
+            <p class="card-text">
+              <a href="about.html" class="button btn btn-danger mb-4 align-self-center">REGISTER NOW</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="../assets/images/cpr.jpg" width="500" heigth="250" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">BLS</h5>
+            <p class="card-text">This American Heart Association CPR certification meets requirements for healthcare
+              professionals and students such as nurses, doctors, EMTs and other healthcare providers.</p>
+            <p class="card-text">
+              <a href="about.html" class="button btn btn-danger m-4 align-self-center">REGISTER NOW</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="../assets/images/pals-baby.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"> PALS</h5>
+            <p class="card-text">This American Heart Association PALS course is for healthcare providers who respond to
+              emergencies in infants and children. It teaches pediatric assessment, basic life support and
+              resuscitation.</p>
+            <p class="card-text">
+              <a href="about.html" class="button btn btn-danger mb-4 align-self-center">REGISTER NOW</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+    <div class="row mt-5">
+
+
+
+
+
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="../assets/images/medemergency.jpeg" width="500" heigth="250" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ACUTE MEDICAL EMERGENCIES</h5>
+            <p class="card-text">This course is certified by the british medical association and equips healthcare
+              workers
+              to manage diverse medical emergencies within and outside hospital settings.
+            </p>
+            <p class="card-text">
+              <a href="about.html" class="button btn btn-danger mb-4 align-self-center">REGISTER NOW</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="../assets/images/ecg.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ECG INTERPRETATION</h5>
+            <p class="card-text">This course teaches the basic and advanced concepts required by paramedics, nurses and
+              doctors in their encounters with patients.</p>
+            <p class="card-text">
+              <a href="about.html" class="button btn btn-danger m-4 align-self-center">REGISTER NOW</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="../assets/images/piron-guillaume-492636-unsplash3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"> ACUTE TRAUMA MANAGEMENT</h5>
+            <p class="card-text">Comprehensive course with certification from the American College of Surgeons covering
+              the essential elements of trauma management for for hospital and out-of-hospital practice..</p>
+            <p class="card-text">
+              <a href="about.html" class="button btn btn-danger mt-1 mb-2 align-self-center">REGISTER NOW</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="row">
+
+      <h5 class="col mt-2 pt-5 pb-3 title-text text-white">FOR INDIVIDUALS,HOSPITALS AND CORPORATE ORGANISATIONS</h5>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="../assets/images/piron-guillaume-492636-unsplash3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">FIRST AID COURSE</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vero quis ducimus,
+              voluptatem aperiam officia debitis repellat eligendi iure excepturi, omnis doloremque? Maxime, possimus
+              accusamus.</p>
+            <p class="card-text">
+              <a href="about.html" class="button btn btn-danger mt-1 mb-2 align-self-center">REGISTER NOW</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="../assets/images/piron-guillaume-492636-unsplash3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">INSTRUCTOR TRAINING</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates quod ad ullam eos
+              est, accusamus illo, culpa nobis repellendus eius, dignissimos fugit pariatur ratione consectetur.</p>
+            <p class="card-text">
+              <a href="about.html" class="button btn btn-danger mt-1 mb-2 align-self-center">REGISTER NOW</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="../assets/images/piron-guillaume-492636-unsplash3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">TRAINING FOR ORGANISATIONS</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti sint voluptatum,
+              vero dolores nesciunt quod sed consequatur consequuntur ullam vitae! Quia laboriosam omnis laborum
+              magnam.</p>
+            <p class="card-text">
+              <a href="about.html" class="button btn btn-danger mt-1 mb-2 align-self-center">REGISTER NOW</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  </section>
+
+
+  <!-- ================End of Card-Overview Section================= -->
+
+
 
 
 
   <!-- LIST OF COURSES. ENROLL -->
 
-  <section class="py-4 bg-dark text-white">
+  <!-- <section class="py-4 bg-dark text-white">  -->
+    <!-- this breaks the testimonial section. No it doesnt! -->
+      <section class="list-section py-4 ">
+
+
+    <div class="row">
+
+        <h5 class="col p-5 title-text text-white">A list of courses we offer:</h5>
+  
+      </div>
 
     <div class="container">
       <div class="row">
 
         <div class="col-md-4">
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class=" p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2  align-self-end">
+            <div class="p-2  align-self-end course-list">
               Advanced Cardiovascular Life Support (ACLS)
             </div>
           </div>
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class="p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2 align-self-end">
+            <div class="p-2 align-self-end course-list">
               Basic Life Support (BLS)
             </div>
           </div>
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class="p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2 align-self-end">
+            <div class="p-2 align-self-end course-list">
               Paediatric Advanced Life Support (PALS)
             </div>
           </div>
 
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class="p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2 align-self-end">
+            <div class="p-2 align-self-end course-list">
               Acute Medical Emergencies (AME)
             </div>
           </div>
@@ -341,11 +440,11 @@
 
         <div class="col-md-4">
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class="p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2 align-self-end">
+            <div class="p-2 align-self-end course-list">
               Acute Trauma Management <br>
               (ATLS)
             </div>
@@ -353,30 +452,30 @@
           </div>
 
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class="p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2 align-self-end">
+            <div class="p-2 align-self-end course-list">
               CME & CPD Credits
             </div>
           </div>
 
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class="p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2 align-self-end">
+            <div class="p-2 align-self-end course-list">
               Advanced Airway Management
             </div>
           </div>
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class="p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2 align-self-end">
+            <div class="p-2 align-self-end course-list">
               12 Lead ECG Interpretation
             </div>
           </div>
@@ -389,41 +488,41 @@
         <div class="col-md-4">
 
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class="p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2 align-self-end">
+            <div class="p-2 align-self-end course-list">
               First Aid Course
             </div>
           </div>
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class="p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2 align-self-end">
+            <div class="p-2 align-self-end course-list">
               CPR & AED For Non-Healthcare Professionals
             </div>
 
           </div>
 
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class="p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2 align-self-end">
+            <div class="p-2 align-self-end course-list">
               Instructor Training
             </div>
           </div>
 
 
-          <div class="d-flex">
+          <div class="d-flex text-white">
             <div class="p-2 align-self-start">
               <i class="fas fa-check fa-x"></i>
             </div>
-            <div class="p-2 align-self-end">
+            <div class="p-2 align-self-end course-list">
               Business and Institutional Packages
             </div>
           </div>
@@ -435,27 +534,6 @@
       </div>
     </div>
 
-    <div class="container my-4">
-      <div class="row">
-        <div class="col-md-6">
-
-
-          <!-- <div>
-            <h4> Want to find out more ? Click here</h4>
-          </div> -->
-
-          <a href="#" class="btn btn-lg btn-secondary">Click Here To find Out More</a>
-
-        </div>
-        <div class="col-md-6">
-          <!-- 
-          <div>
-            <p> Decided on a course ? Go here to register</p>
-          </div> -->
-
-        </div>
-      </div>
-    </div>
 
 
 
@@ -474,9 +552,6 @@
     <div class="container-fluid">
       <div class="row">
 
-        <!-- <div class="col-md-2">
-
-            </div> -->
 
         <div class="col d-flex flex-row justify-content-around">
           <div>
@@ -496,25 +571,17 @@
           </div>
 
         </div>
-        <!-- <div class="col-md-4">
-              <img src="../assets/images/aha-training-center.jpg" width="180" height="120" alt="American Heart Association Logo">
-            </div>
-            <div class="col-md-4">
-              <img src="../assets/images/RCSA.jpg" width="150" height="100" alt="RCSA logo">
-            </div>
-            <div class="col-md-4">
-              <img src="../assets/images/Youwin-logo.jpg" width="150" height="100" alt="">
-            </div> -->
+     
 
 
       </div>
     </div>
   </section>
 
-  <section class="reach-us pt-4 border">
+  <!-- <section class="reach-us pt-4 border">
     <div class="row">
       <div class="col">
-        <div class="container text-small">
+        <div class="container text-small customer-support">
           <h6 class="font-weight-bold">CARDINAL ACADEMY CUSTOMER SUPPORT</h6>
           <p>1-234-567-890, 1-234-567-890
             <br>
@@ -526,12 +593,12 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
   <!-- TESTIMONIALS -->
-  <section id="testimonials" class="p-4 bg-dark text-white">
-    <div class="container">
+  <section id="testimonials" class="p-4 bg-dark text-white   ">
+    <div class="container testimonial-text">
       <h2 class="text-center font-italic border-bottom">Testimonials from our clients</h2>
       <div class="row text-center">
         <div class="col">
@@ -571,6 +638,23 @@
               </blockquote>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="reach-us pt-4 border">
+    <div class="row">
+      <div class="col">
+        <div class="container text-small customer-support">
+          <h6 class="font-weight-bold">CARDINAL ACADEMY CUSTOMER SUPPORT</h6>
+          <p>1-234-567-890, 1-234-567-890
+            <br>
+            <a href="mailto:funmi@cardinalacademy.org">funmi@cardinalacademy.org</a>
+            <br>
+            <span class="font-italic">Phone lines are available 8 a.m to 5 p.m, Monday - Friday and 8 a.m - 12 p.m GMT,
+              Saturday </span>
+          </p>
         </div>
       </div>
     </div>
@@ -687,3 +771,9 @@
 </body>
 
 </html>
+
+
+
+
+
+

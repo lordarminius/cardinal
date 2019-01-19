@@ -11,12 +11,15 @@ html {
 // $info-background1: rgb(97%, 80%, 12%);
 // $info-background2: rgb(26%, 26%, 26%); 
 
+// $newbtn-color : rgb(97%, 1%, 1%);
+
 
 
 // Generate Navbar
-$bgDefault      : #478f99;
-$bgHighlight    : #aff0f8;
-$colDefault     : #ffffff;
+$navColor       : #001935;
+$bgDefault      : #f8f8f8;
+$bgHighlight    : #01090a;
+$colDefault     : #f30e0e;
 $colHighlight   : #f58024;
 $colfallback    : #000;
 $dropDown       : true;
@@ -128,7 +131,11 @@ $dropDown       : true;
   
 
 .navbar-custom {
-  min-height: 18vh;
+  min-height: 15vh;
+  // background-image: url(../assets/images/ecg.jpg);
+  // background-size: cover;
+   background-color: $navColor;
+  
  
 }
 
@@ -137,22 +144,167 @@ $dropDown       : true;
 
 
 .navbar-text {
-  font-size: 90%;
+  font-size: 110%;
 }
 
 .byeline {
   margin-left: 15em;
+  color: rgb(237, 3, 3);
 }
 
 
-
-
-
-
-.archway {
-  text-indent: 1em;
-  text-transform: uppercase;
+.overlay {
+  background-color: rgba(43, 42, 42, 0.9);
 }
+
+#main {
+  min-height: 100vh;
+
+   
+}
+
+.hero-image {
+  background-image:  linear-gradient(rgba(54, 51, 51, 0.4), rgba(54, 51, 51, 0.4)), url(../assets/images/cpr-class.jpg);
+  // background-image: url(../assets/images/cpr-class.jpg);
+  background-size: cover;
+  height:100vh;
+  background-position: center;
+  margin-top: 10vh;
+}
+
+
+.landing-page-content {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+  
+  h3{
+  color: rgb(255, 255, 255);
+  font-family: 'Lato', sans-serif;
+  font-size: 42px;
+  }
+  
+  p {
+  color:rgb(255, 255, 255);
+  font-size: 1.25rem;
+  width: 45%;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  }
+  
+  .button {
+  border:1px solid rgb(211, 205, 205);
+  background: rgb(255, 255, 255);
+  }
+  
+  // border: 2px solid black;
+  }
+
+
+
+
+
+
+
+// .title-text {
+//    color: rgb(247, 3, 3);
+// }
+
+
+.card-img-top {
+  width: 100%;
+  height : 18vw;
+  object-fit: cover;
+
+}
+
+
+ .cardinal-outline {
+
+  h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+  }
+
+  p {
+    font-family: 'Lato', sans-serif;
+    font-size: 110%;
+    font-weight: 400;
+    line-height: 130%
+  }
+ }
+
+
+
+.blurb {
+ 
+  min-height: 45vh;
+
+  h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+
+  p {
+    // font-size: 120%;
+    font-size: 100.5%;
+    font-weight: 400;
+    line-height: 130%;
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+// .take-charge :after {
+//   display: block; 
+//   height: 2px;
+//   background-color: orangered;
+//   content: "";
+//   width: 200px;
+// }
+
+
+.descriptive-cards{
+  //  background-color: #f0f7ff;
+  // background-color: rgb(46, 54, 63);
+  background-color: $navColor;
+  
+}
+
+.course-list {
+
+  font-family: 'Lato', sans-serif;
+}
+
+.customer-support {
+  // font-size: 120%;
+  font-size: 112.5%;
+  font-weight: 400;
+  line-height: 130%;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.testimonial-text {
+
+  h2, p {
+    font-family: 'Lato', sans-serif;
+  }
+
+  h2 {
+    font-size: 112.5%;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  }
+
+
+  .contact-section, .staff-section {
+    font-family: 'Lato', sans-serif;
+
+  }
+
 
 
 
@@ -208,8 +360,16 @@ ul {
   padding-left: 1em;
 }
 
+
+
+.list-section, .logo-section {
+  // background-color: rgb(28, 75, 129);
+  background-color: rgb(13, 52, 97);;
+
+}
+
 .reach-us {
-  background-color: rgb(236, 249, 250);
+  // background-color: rgb(236, 249, 250);
   font-size: 90%;
 }
 
